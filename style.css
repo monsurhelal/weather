@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container {
+    background: url('img/rainbow-weather.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 657px;
+    overflow: hidden;
+}
+
+.content {
+    width: 400px;
+    background-image: url('img/bg1.jpg');
+    border: 1px solid #d8c94a;
+    text-align: center;
+    color: white;
+    margin: auto;
+    /* margin-top: 65px; */
+}
+.content img {
+    width: 85px;
+    margin-bottom: 20px;
+}
+
+.content ul li {
+    background: #ddd;
+    margin-bottom: 5px;
+    width: 340px;
+    margin-left: 30px;
+    list-style: none;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    color:black;
+    font-size: 20px;
+}
+.content input[type='text'] {
+    padding: 14px 0px;
+    margin-top: 26px;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.content input[type='button'] {
+    padding: 14px 16px;
+    font-size: 22px;
+}
+h1.header {
+    text-align: center;
+    margin-top: 25px;
+    color: #2cd9ef;
+    text-shadow: 3px 1px 0px #9a9595;
+}

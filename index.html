@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="shortcut icon" href="img/weather.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>weather app</title>
+</head>
+<body>
+    
+
+<div class="container">
+
+    <h1 class="header">weather app</h1>
+
+    <div class="content">
+
+        <input type="text" id="cityName" placeholder="change your location...">
+        <input type="button"  id="sub-btn" value="search">
+
+        <h1 id="w-location"></h1>
+        <h2 id="w-des"></h2>
+        <h3 id="w-strint"></h3>
+        <img id="w-icon" src="" alt="">
+        <ul>
+            <li id="w-humidity"></li>
+            <li id="w-presser"></li>
+            <li id="w-wind"></li>
+            <li id="w-pc"></li>
+        </ul>
+
+
+
+    </div>
+
+
+
+
+</div>
+
+
+<script src="weather.js"></script>
+<script src="ui.js"></script>
+<script src="app.js"></script>
+    
+</body>
+</html>
